@@ -120,6 +120,7 @@
 		1EFF94212A22F88700C26B47 /* autoUA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "autoUA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFF94262A22F88700C26B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EFF94272A22F88700C26B47 /* autoUA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autoUA.entitlements; sourceTree = "<group>"; };
+		1EFF94562A22FA6B00C26B47 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +158,7 @@
 		1EFF93DC2A22F88400C26B47 = {
 			isa = PBXGroup;
 			children = (
+				1EFF94562A22FA6B00C26B47 /* .gitignore */,
 				1EFF93E12A22F88400C26B47 /* Shared (App) */,
 				1EFF93EA2A22F88600C26B47 /* Shared (Extension) */,
 				1EFF93FB2A22F88600C26B47 /* iOS (App) */,
