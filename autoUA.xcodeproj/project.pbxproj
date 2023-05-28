@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EFF93FD2A22F88600C26B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF93FC2A22F88600C26B47 /* AppDelegate.swift */; };
+		1EFF93FF2A22F88600C26B47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF93FE2A22F88600C26B47 /* SceneDelegate.swift */; };
+		1EFF94022A22F88600C26B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF94002A22F88600C26B47 /* LaunchScreen.storyboard */; };
+		1EFF94052A22F88600C26B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF94032A22F88600C26B47 /* Main.storyboard */; };
+		1EFF940E2A22F88600C26B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF940D2A22F88600C26B47 /* AppDelegate.swift */; };
+		1EFF94112A22F88600C26B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF940F2A22F88600C26B47 /* Main.storyboard */; };
+		1EFF94182A22F88700C26B47 /* autoUA Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1EFF94172A22F88700C26B47 /* autoUA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1EFF94222A22F88700C26B47 /* autoUA Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1EFF94212A22F88700C26B47 /* autoUA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1EFF94282A22F88700C26B47 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E32A22F88400C26B47 /* Main.html */; };
+		1EFF94292A22F88700C26B47 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E32A22F88400C26B47 /* Main.html */; };
+		1EFF942A2A22F88700C26B47 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E52A22F88400C26B47 /* Icon.png */; };
+		1EFF942B2A22F88700C26B47 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E52A22F88400C26B47 /* Icon.png */; };
+		1EFF942C2A22F88700C26B47 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E62A22F88400C26B47 /* Style.css */; };
+		1EFF942D2A22F88700C26B47 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E62A22F88400C26B47 /* Style.css */; };
+		1EFF942E2A22F88700C26B47 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E72A22F88400C26B47 /* Script.js */; };
+		1EFF942F2A22F88700C26B47 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E72A22F88400C26B47 /* Script.js */; };
+		1EFF94302A22F88700C26B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF93E82A22F88400C26B47 /* ViewController.swift */; };
+		1EFF94312A22F88700C26B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF93E82A22F88400C26B47 /* ViewController.swift */; };
+		1EFF94322A22F88700C26B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E92A22F88600C26B47 /* Assets.xcassets */; };
+		1EFF94332A22F88700C26B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93E92A22F88600C26B47 /* Assets.xcassets */; };
+		1EFF94342A22F88700C26B47 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF93EB2A22F88600C26B47 /* SafariWebExtensionHandler.swift */; };
+		1EFF94352A22F88700C26B47 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF93EB2A22F88600C26B47 /* SafariWebExtensionHandler.swift */; };
+		1EFF94362A22F88700C26B47 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93ED2A22F88600C26B47 /* _locales */; };
+		1EFF94372A22F88700C26B47 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93ED2A22F88600C26B47 /* _locales */; };
+		1EFF94382A22F88700C26B47 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93EE2A22F88600C26B47 /* images */; };
+		1EFF94392A22F88700C26B47 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93EE2A22F88600C26B47 /* images */; };
+		1EFF943A2A22F88700C26B47 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93EF2A22F88600C26B47 /* manifest.json */; };
+		1EFF943B2A22F88700C26B47 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93EF2A22F88600C26B47 /* manifest.json */; };
+		1EFF943C2A22F88700C26B47 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F02A22F88600C26B47 /* background.js */; };
+		1EFF943D2A22F88700C26B47 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F02A22F88600C26B47 /* background.js */; };
+		1EFF943E2A22F88700C26B47 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F12A22F88600C26B47 /* content.js */; };
+		1EFF943F2A22F88700C26B47 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F12A22F88600C26B47 /* content.js */; };
+		1EFF94402A22F88700C26B47 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F22A22F88600C26B47 /* popup.html */; };
+		1EFF94412A22F88700C26B47 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F22A22F88600C26B47 /* popup.html */; };
+		1EFF94422A22F88700C26B47 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F32A22F88600C26B47 /* popup.css */; };
+		1EFF94432A22F88700C26B47 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F32A22F88600C26B47 /* popup.css */; };
+		1EFF94442A22F88700C26B47 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F42A22F88600C26B47 /* popup.js */; };
+		1EFF94452A22F88700C26B47 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF93F42A22F88600C26B47 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EFF94192A22F88700C26B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EFF93DD2A22F88400C26B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFF94162A22F88700C26B47;
+			remoteInfo = "autoUA Extension (iOS)";
+		};
+		1EFF94232A22F88700C26B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EFF93DD2A22F88400C26B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFF94202A22F88700C26B47;
+			remoteInfo = "autoUA Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EFF944B2A22F88700C26B47 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1EFF94182A22F88700C26B47 /* autoUA Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF94522A22F88700C26B47 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1EFF94222A22F88700C26B47 /* autoUA Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EFF93E42A22F88400C26B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		1EFF93E52A22F88400C26B47 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1EFF93E62A22F88400C26B47 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		1EFF93E72A22F88400C26B47 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		1EFF93E82A22F88400C26B47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EFF93E92A22F88600C26B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EFF93EB2A22F88600C26B47 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1EFF93ED2A22F88600C26B47 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		1EFF93EE2A22F88600C26B47 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1EFF93EF2A22F88600C26B47 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1EFF93F02A22F88600C26B47 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		1EFF93F12A22F88600C26B47 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		1EFF93F22A22F88600C26B47 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		1EFF93F32A22F88600C26B47 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		1EFF93F42A22F88600C26B47 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		1EFF93F92A22F88600C26B47 /* autoUA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoUA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFF93FC2A22F88600C26B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EFF93FE2A22F88600C26B47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EFF94012A22F88600C26B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EFF94042A22F88600C26B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EFF94062A22F88600C26B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFF940B2A22F88600C26B47 /* autoUA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoUA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFF940D2A22F88600C26B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EFF94102A22F88600C26B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EFF94122A22F88600C26B47 /* autoUA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autoUA.entitlements; sourceTree = "<group>"; };
+		1EFF94172A22F88700C26B47 /* autoUA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "autoUA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFF941C2A22F88700C26B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFF94212A22F88700C26B47 /* autoUA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "autoUA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFF94262A22F88700C26B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFF94272A22F88700C26B47 /* autoUA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autoUA.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EFF93F62A22F88600C26B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF94082A22F88600C26B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF94142A22F88700C26B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF941E2A22F88700C26B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFF93DC2A22F88400C26B47 = {
+			isa = PBXGroup;
+			children = (
+				1EFF93E12A22F88400C26B47 /* Shared (App) */,
+				1EFF93EA2A22F88600C26B47 /* Shared (Extension) */,
+				1EFF93FB2A22F88600C26B47 /* iOS (App) */,
+				1EFF940C2A22F88600C26B47 /* macOS (App) */,
+				1EFF941B2A22F88700C26B47 /* iOS (Extension) */,
+				1EFF94252A22F88700C26B47 /* macOS (Extension) */,
+				1EFF93FA2A22F88600C26B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EFF93E12A22F88400C26B47 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF93E82A22F88400C26B47 /* ViewController.swift */,
+				1EFF93E92A22F88600C26B47 /* Assets.xcassets */,
+				1EFF93E22A22F88400C26B47 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		1EFF93E22A22F88400C26B47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF93E32A22F88400C26B47 /* Main.html */,
+				1EFF93E52A22F88400C26B47 /* Icon.png */,
+				1EFF93E62A22F88400C26B47 /* Style.css */,
+				1EFF93E72A22F88400C26B47 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1EFF93EA2A22F88600C26B47 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF93EB2A22F88600C26B47 /* SafariWebExtensionHandler.swift */,
+				1EFF93EC2A22F88600C26B47 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		1EFF93EC2A22F88600C26B47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF93ED2A22F88600C26B47 /* _locales */,
+				1EFF93EE2A22F88600C26B47 /* images */,
+				1EFF93EF2A22F88600C26B47 /* manifest.json */,
+				1EFF93F02A22F88600C26B47 /* background.js */,
+				1EFF93F12A22F88600C26B47 /* content.js */,
+				1EFF93F22A22F88600C26B47 /* popup.html */,
+				1EFF93F32A22F88600C26B47 /* popup.css */,
+				1EFF93F42A22F88600C26B47 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1EFF93FA2A22F88600C26B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF93F92A22F88600C26B47 /* autoUA.app */,
+				1EFF940B2A22F88600C26B47 /* autoUA.app */,
+				1EFF94172A22F88700C26B47 /* autoUA Extension.appex */,
+				1EFF94212A22F88700C26B47 /* autoUA Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EFF93FB2A22F88600C26B47 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF93FC2A22F88600C26B47 /* AppDelegate.swift */,
+				1EFF93FE2A22F88600C26B47 /* SceneDelegate.swift */,
+				1EFF94002A22F88600C26B47 /* LaunchScreen.storyboard */,
+				1EFF94032A22F88600C26B47 /* Main.storyboard */,
+				1EFF94062A22F88600C26B47 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		1EFF940C2A22F88600C26B47 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF940D2A22F88600C26B47 /* AppDelegate.swift */,
+				1EFF940F2A22F88600C26B47 /* Main.storyboard */,
+				1EFF94122A22F88600C26B47 /* autoUA.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		1EFF941B2A22F88700C26B47 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF941C2A22F88700C26B47 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1EFF94252A22F88700C26B47 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF94262A22F88700C26B47 /* Info.plist */,
+				1EFF94272A22F88700C26B47 /* autoUA.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EFF93F82A22F88600C26B47 /* autoUA (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFF944C2A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA (iOS)" */;
+			buildPhases = (
+				1EFF93F52A22F88600C26B47 /* Sources */,
+				1EFF93F62A22F88600C26B47 /* Frameworks */,
+				1EFF93F72A22F88600C26B47 /* Resources */,
+				1EFF944B2A22F88700C26B47 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EFF941A2A22F88700C26B47 /* PBXTargetDependency */,
+			);
+			name = "autoUA (iOS)";
+			productName = "autoUA (iOS)";
+			productReference = 1EFF93F92A22F88600C26B47 /* autoUA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EFF940A2A22F88600C26B47 /* autoUA (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFF94532A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA (macOS)" */;
+			buildPhases = (
+				1EFF94072A22F88600C26B47 /* Sources */,
+				1EFF94082A22F88600C26B47 /* Frameworks */,
+				1EFF94092A22F88600C26B47 /* Resources */,
+				1EFF94522A22F88700C26B47 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EFF94242A22F88700C26B47 /* PBXTargetDependency */,
+			);
+			name = "autoUA (macOS)";
+			productName = "autoUA (macOS)";
+			productReference = 1EFF940B2A22F88600C26B47 /* autoUA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EFF94162A22F88700C26B47 /* autoUA Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFF94482A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA Extension (iOS)" */;
+			buildPhases = (
+				1EFF94132A22F88700C26B47 /* Sources */,
+				1EFF94142A22F88700C26B47 /* Frameworks */,
+				1EFF94152A22F88700C26B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "autoUA Extension (iOS)";
+			productName = "autoUA Extension (iOS)";
+			productReference = 1EFF94172A22F88700C26B47 /* autoUA Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1EFF94202A22F88700C26B47 /* autoUA Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFF944F2A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA Extension (macOS)" */;
+			buildPhases = (
+				1EFF941D2A22F88700C26B47 /* Sources */,
+				1EFF941E2A22F88700C26B47 /* Frameworks */,
+				1EFF941F2A22F88700C26B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "autoUA Extension (macOS)";
+			productName = "autoUA Extension (macOS)";
+			productReference = 1EFF94212A22F88700C26B47 /* autoUA Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EFF93DD2A22F88400C26B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1EFF93F82A22F88600C26B47 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1EFF940A2A22F88600C26B47 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1EFF94162A22F88700C26B47 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1EFF94202A22F88700C26B47 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1EFF93E02A22F88400C26B47 /* Build configuration list for PBXProject "autoUA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EFF93DC2A22F88400C26B47;
+			productRefGroup = 1EFF93FA2A22F88600C26B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFF93F82A22F88600C26B47 /* autoUA (iOS) */,
+				1EFF940A2A22F88600C26B47 /* autoUA (macOS) */,
+				1EFF94162A22F88700C26B47 /* autoUA Extension (iOS) */,
+				1EFF94202A22F88700C26B47 /* autoUA Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EFF93F72A22F88600C26B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF942A2A22F88700C26B47 /* Icon.png in Resources */,
+				1EFF94022A22F88600C26B47 /* LaunchScreen.storyboard in Resources */,
+				1EFF94282A22F88700C26B47 /* Main.html in Resources */,
+				1EFF942E2A22F88700C26B47 /* Script.js in Resources */,
+				1EFF94322A22F88700C26B47 /* Assets.xcassets in Resources */,
+				1EFF94052A22F88600C26B47 /* Main.storyboard in Resources */,
+				1EFF942C2A22F88700C26B47 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF94092A22F88600C26B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF942B2A22F88700C26B47 /* Icon.png in Resources */,
+				1EFF942D2A22F88700C26B47 /* Style.css in Resources */,
+				1EFF94112A22F88600C26B47 /* Main.storyboard in Resources */,
+				1EFF942F2A22F88700C26B47 /* Script.js in Resources */,
+				1EFF94332A22F88700C26B47 /* Assets.xcassets in Resources */,
+				1EFF94292A22F88700C26B47 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF94152A22F88700C26B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF943C2A22F88700C26B47 /* background.js in Resources */,
+				1EFF94422A22F88700C26B47 /* popup.css in Resources */,
+				1EFF94402A22F88700C26B47 /* popup.html in Resources */,
+				1EFF94382A22F88700C26B47 /* images in Resources */,
+				1EFF943A2A22F88700C26B47 /* manifest.json in Resources */,
+				1EFF94362A22F88700C26B47 /* _locales in Resources */,
+				1EFF943E2A22F88700C26B47 /* content.js in Resources */,
+				1EFF94442A22F88700C26B47 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF941F2A22F88700C26B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF943D2A22F88700C26B47 /* background.js in Resources */,
+				1EFF94432A22F88700C26B47 /* popup.css in Resources */,
+				1EFF94412A22F88700C26B47 /* popup.html in Resources */,
+				1EFF94392A22F88700C26B47 /* images in Resources */,
+				1EFF943B2A22F88700C26B47 /* manifest.json in Resources */,
+				1EFF94372A22F88700C26B47 /* _locales in Resources */,
+				1EFF943F2A22F88700C26B47 /* content.js in Resources */,
+				1EFF94452A22F88700C26B47 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EFF93F52A22F88600C26B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF94302A22F88700C26B47 /* ViewController.swift in Sources */,
+				1EFF93FD2A22F88600C26B47 /* AppDelegate.swift in Sources */,
+				1EFF93FF2A22F88600C26B47 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF94072A22F88600C26B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF94312A22F88700C26B47 /* ViewController.swift in Sources */,
+				1EFF940E2A22F88600C26B47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF94132A22F88700C26B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF94342A22F88700C26B47 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFF941D2A22F88700C26B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFF94352A22F88700C26B47 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EFF941A2A22F88700C26B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EFF94162A22F88700C26B47 /* autoUA Extension (iOS) */;
+			targetProxy = 1EFF94192A22F88700C26B47 /* PBXContainerItemProxy */;
+		};
+		1EFF94242A22F88700C26B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EFF94202A22F88700C26B47 /* autoUA Extension (macOS) */;
+			targetProxy = 1EFF94232A22F88700C26B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EFF93E32A22F88400C26B47 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFF93E42A22F88400C26B47 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		1EFF94002A22F88600C26B47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFF94012A22F88600C26B47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFF94032A22F88600C26B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFF94042A22F88600C26B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFF940F2A22F88600C26B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFF94102A22F88600C26B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EFF94462A22F88700C26B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EFF94472A22F88700C26B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1EFF94492A22F88700C26B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "autoUA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA.Extension;
+				PRODUCT_NAME = "autoUA Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EFF944A2A22F88700C26B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "autoUA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA.Extension;
+				PRODUCT_NAME = "autoUA Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFF944D2A22F88700C26B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = autoUA;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA;
+				PRODUCT_NAME = autoUA;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EFF944E2A22F88700C26B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = autoUA;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA;
+				PRODUCT_NAME = autoUA;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFF94502A22F88700C26B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/autoUA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "autoUA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA.Extension;
+				PRODUCT_NAME = "autoUA Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EFF94512A22F88700C26B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/autoUA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "autoUA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA.Extension;
+				PRODUCT_NAME = "autoUA Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1EFF94542A22F88700C26B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/autoUA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = autoUA;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA;
+				PRODUCT_NAME = autoUA;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EFF94552A22F88700C26B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/autoUA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3WPFR237B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = autoUA;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steveliu.autoUA;
+				PRODUCT_NAME = autoUA;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFF93E02A22F88400C26B47 /* Build configuration list for PBXProject "autoUA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFF94462A22F88700C26B47 /* Debug */,
+				1EFF94472A22F88700C26B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFF94482A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFF94492A22F88700C26B47 /* Debug */,
+				1EFF944A2A22F88700C26B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFF944C2A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFF944D2A22F88700C26B47 /* Debug */,
+				1EFF944E2A22F88700C26B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFF944F2A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFF94502A22F88700C26B47 /* Debug */,
+				1EFF94512A22F88700C26B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFF94532A22F88700C26B47 /* Build configuration list for PBXNativeTarget "autoUA (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFF94542A22F88700C26B47 /* Debug */,
+				1EFF94552A22F88700C26B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EFF93DD2A22F88400C26B47 /* Project object */;
+}
